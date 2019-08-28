@@ -1,0 +1,67 @@
+@media screen and (max-width: 980px) {
+    .top-nav-bar {
+        height: 118px;
+        border-bottom: 0;
+    }
+
+    .search-box {
+        width: 100%;
+    }
+
+    .menu-bar {
+        width: 100%;
+    }
+
+    .menu-bar ul {
+        margin: 12px 0;
+        width: 100%
+    }
+
+    .menu-bar ul li {
+        height: 57px;
+        width: 100%;
+    }
+
+    .menu-bar ul li a {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .side-menu {
+        width: 34%;
+        z-index: 20;
+        top: 145px;
+        position: fixed;
+        font-size: 12px;
+        display: none;
+    }
+
+    .side-menu ul li ul {
+        top: 133px;
+    }
+
+    .side-menu ul li:hover ul {
+        margin-left: 31%;
+    }
+
+    #menu-btn {
+        display: block;
+    }
+
+    .slider {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .slider img {
+        height: auto;
+    }
+
+    .footer .store {
+        width: 150px;
+    }
+
+    .footer .row .store-i {
+        font-size: 18px;
+    }
+}

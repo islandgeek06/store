@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Single Product</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobile.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/4db64efa47.js"></script>
+</head>
+
+<body>
+    <section>
+        <div class="top-nav-bar">
+            <div class="search-box">
+                <i class="fas fa-bar" id="menu-btn" onclick="openmenu()"></i>
+                <i class="fas fa-times" id="close-btn" onclick="closemenu()"></i>
+
+                <a href="index.html">
+                    <h2 class="logo">Celeb </h2>
+                </a>
+                <input type="text" class="form-control">
+                <span class="input-group-text"><i class="fas fa-search"></i></span>
+            </div>
+
+            <div class="menu-bar">
+                <ul>
+                    <li><a href=""><i class="fas fa-shopping-cart"></i>Cart</a></li>
+                    <li><a href="">Sign up</a></li>
+                    <li><a href="">Log In</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -------------------------------Single Product -->
+
+    <section class="single-product">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                     <div id="product-slider" class="carousel slide carousel-fade" data-ride="carousel">
+                         <div class="carousel-inner">
+                             <div class="carousel-item active">
+                                 <img src="stock/adult-bracelet-casual-1232459.jpg" class="d-block w-100"
+                                     alt="...">
+                             </div>
+                             <div class="carousel-item">
+                                 <img src="stock/camera-chair-clothes-2062324.jpg" class="d-block w-100" alt="...">
+                             </div>
+                             <div class="carousel-item">
+                                 <img src="stock/braids-close-up-daylight-1276574.jpg" class="d-block w-100 " alt="...">
+                             </div>
+                             <a class="carousel-control-prev" href="#product-slider" role="button"
+                                 data-slide="prev">
+                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                 <span class="sr-only">Previous</span>
+                             </a>
+                             <a class="carousel-control-next" href="#product-slider" role="button"
+                                 data-slide="next">
+                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                 <span class="sr-only">Next</span>
+                             </a>
+                         </div>
+                     </div>
+                </div>
+
+                <div class="col-md-7">
+                    <p class="new-arrival text-center">NEW</p>
+                    <h2>Men's T Shirts V Neck - Blue Color</h2>
+                    <p>Product Code: QUSP1806</p>
+
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+
+                    <p class="price">USD $200.00</p>
+                    <p><b>Available:</b> In Stock</p>
+                    <p><b>Condidtion:</b> New</p>
+                    <p><b>Brand</b> Get Right Company</p>
+                    <label for="">Quantity:</label>
+                    <input type="text" value="1">
+                    <button type="button" class="btn btn-secondary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-------------------------------------- Product Discription -->
+
+        <section class="product-description">
+            <div class="container">
+                <h6>Product Description</h6>
+                <p>
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                    classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                    professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                    consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                    literature, discovered the undoubtable source. Lorem Ipsum comes from sections. 
+                </p>
+
+                <p>
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                    classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                    professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                    consectetur, from a Lorem Ipsum passage. 
+                </p>
+
+                <hr>
+            </div>
+
+             <div class="container">
+                 <div class="title-box">
+                     <h2>Similar Items</h2>
+                 </div>
+                 <div class="row">
+                     <div class="col-md-3">
+                         <div class="product-top">
+                             <img src="stock/adult-beard-blur-2814239.jpg" alt="">
+                             <div class="overlay-right">
+                                 <button type="button" class="btn btn-seconday" title="Quick Shop">
+                                     <i class="fas fa-eye"></i>
+                                 </button>
+                                 <button type="button" class="btn btn-seconday" title="Add to Wish List">
+                                     <i class="fas fa-heart"></i>
+                                 </button>
+                                 <button type="button" class="btn btn-seconday" title="Add to Cart">
+                                     <i class="fas fa-shopping-cart"></i>
+                                 </button>
+                             </div>
+
+                         </div>
+                         <div class="product-bottom text-center">
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star-half"></i>
+                             <h3>Rose Gold</h3>
+                             <h5>$500.00</h5>
+                         </div>
+                     </div>
+
+                     <div class="col-md-3">
+                         <div class="product-top">
+                             <img src="stock/marek-szturc-NYqJpXf2R5U-unsplash.jpg" alt="">
+                             <div class="overlay-right">
+                                 <button type="button" class="btn btn-seconday" title="Quick Shop">
+                                     <i class="fas fa-eye"></i>
+                                 </button>
+                                 <button type="button" class="btn btn-seconday" title="Add to Wish List">
+                                     <i class="fas fa-heart"></i>
+                                 </button>
+                                 <button type="button" class="btn btn-seconday" title="Add to Cart">
+                                     <i class="fas fa-shopping-cart"></i>
+                                 </button>
+                             </div>
+
+                         </div>
+                         <div class="product-bottom text-center">
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <h3>Stylish Green</h3>
+                             <h5>$250.00</h5>
+                         </div>
+                     </div>
+
+                     <div class="col-md-3">
+                         <div class="product-top">
+                             <img src="stock/afro-hair-blur-depth-of-field-2535859.jpg" alt="">
+                             <div class="overlay-right">
+                                 <button type="button" class="btn btn-seconday" title="Quick Shop">
+                                     <i class="fas fa-eye"></i>
+                                 </button>
+                                 <button type="button" class="btn btn-seconday" title="Add to Wish List">
+                                     <i class="fas fa-heart"></i>
+                                 </button>
+                                 <button type="button" class="btn btn-seconday" title="Add to Cart">
+                                     <i class="fas fa-shopping-cart"></i>
+                                 </button>
+                             </div>
+
+                         </div>
+                         <div class="product-bottom text-center">
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <h3>Timeless</h3>
+                             <h5>$645.00</h5>
+                         </div>
+                     </div>
+
+                     <div class="col-md-3">
+                         <div class="product-top">
+                             <img src="stock/javier-reyes-qi2cD5oR_fE-unsplash.jpg" alt="">
+                             <div class="overlay-right">
+                                 <button type="button" class="btn btn-seconday" title="Quick Shop">
+                                     <i class="fas fa-eye"></i>
+                                 </button>
+                                 <button type="button" class="btn btn-seconday" title="Add to Wish List">
+                                     <i class="fas fa-heart"></i>
+                                 </button>
+                                 <button type="button" class="btn btn-seconday" title="Add to Cart">
+                                     <i class="fas fa-shopping-cart"></i>
+                                 </button>
+                             </div>
+
+                         </div>
+                         <div class="product-bottom text-center">
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star-half"></i>
+                             <h3>Buiness Ready</h3>
+                             <h5>$375.00</h5>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+
+        </section>
+
+
+
+
+
+
+     <section class="footer">
+         <div class="container ">
+             <div class="row">
+                 <div class="col-md-3">
+                     <h1>Useful Links</h1>
+                     <p>Privacy Ploicy</p>
+                     <p>Terms of Use</p>
+                     <p>Return Policy</p>
+                     <p>Discount Coupons</p>
+                 </div>
+
+                 <div class="col-md-3">
+                     <h1>Company</h1>
+                     <p>About Us</p>
+                     <p>Contact Us</p>
+                     <p>Career</p>
+                     <p>Affiliation</p>
+                 </div>
+
+                 <div class="col-md-3">
+                     <h1>Follow Us</h1>
+                     <p><i class="fab fa-facebook-f"></i>Facebook</p>
+                     <p><i class="fab fa-instagram"></i>Instagram</p>
+                     <p><i class="fab fa-twitter"></i>Twitter</p>
+                     <p><i class="fab fa-linkedin-in"></i>Linkedin</p>
+                 </div>
+
+                 <div class="col-md-3">
+                     <h1>Download App</h1>
+                     <button type="button" class="btn btn-lg store"><i class="fab fa-google-play store-i"></i>Google
+                         Play</button>
+                     <button type="button" class="btn btn-lg store"><i class="fab fa-apple store-i"></i>App
+                         Store</button>
+                 </div>
+             </div>
+             <hr>
+             <p class="copyright">Built by TriMid Global</p>
+         </div>
+     </section>
+
+
+
+
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+     <script src="main.js"></script>
+</body>
+
+</html>
